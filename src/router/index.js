@@ -35,6 +35,10 @@ const router = new Router({
     {
       path:'/personage',
       component:personage
+    },
+    {
+      path:'/home',
+      component:home
     }
   ]
 })

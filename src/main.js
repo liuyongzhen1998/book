@@ -4,9 +4,12 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-
+//矢量图图表库
 import { Button } from 'vant'
-Vue.use(Button)
+import { Row, Col } from 'vant';
+import { Tabbar, TabbarItem } from 'vant';
+Vue.use(Button).use(Row).use(Col).use(Tabbar).use(TabbarItem);
+
 
 Vue.config.productionTip = true
 
